@@ -98,3 +98,16 @@ p {
 section {
    padding: 10%;
 }
+
+.backgroundgrey {
+   background-color: #eeeeee;
+}
+
+.align {
+   text-align: center;
+}
+
+.purple {
+   background-color: rgb(88,101,242);
+   color: white;
+}
