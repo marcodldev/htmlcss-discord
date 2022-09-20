@@ -55,6 +55,7 @@ button {
    padding: 15px;
    font-size: inherit;
    border-style: none;
+   cursor: pointer;
 }
 
 header div {
@@ -111,3 +112,33 @@ section {
    background-color: rgb(88,101,242);
    color: white;
 }
+
+
+       /* FOOTER */
+
+ footer {
+
+   background-color: rgb(35,39,42);
+ }
+
+ .column {
+   flex-direction: column;
+ }
+
+ h2 {
+   color:  rgb(88,101,242);
+   font-family: sans-serif;
+ }
+
+ ul {
+   color:  rgb(88,101,242);
+   font-family: sans-serif;
+ }
+
+ .border {
+   border-bottom: 1px solid rgb(88,101,242) ;
+ }
+
+ .margin {
+   margin-top: 20px;
+ }
