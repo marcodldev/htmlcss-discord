@@ -35,14 +35,16 @@
 header {
 
    background-image: url('../img/jumbo.png');
-   object-position: center;
    padding-top: 20px;
+   background-position: center;
+   background-size: cover;
 
 }
 
 nav {
 
    margin-top: 10px;
+   align-items: center;
 
 }
 
@@ -63,17 +65,19 @@ header div {
    padding-bottom: 8%;
 }
 
+.white {
+   color: white;
+}
+
 h1 {
    margin: 30px;
     font-size: xxx-large;
-    color: white;
     font-family: sans-serif;
 }
 
 p {
     font-family: sans-serif;
-    font-size: 1.4rem;
-    color: white;
+    font-size: 1.5rem;
     margin: 15px;
 }
 
@@ -81,4 +85,16 @@ p {
    color: white;
    background-color: #1a2c51;
    margin-left: 20px;
+}
+
+        /* MAIN  */
+
+.imgtext {
+   display: flex;
+   flex-direction: column;
+   margin-left: 30px;
+}      
+
+section {
+   padding: 10%;
 }
